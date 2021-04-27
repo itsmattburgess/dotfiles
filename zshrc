@@ -1,7 +1,7 @@
 # Core paths
 export DOTFILES=$HOME/.dotfiles
 export ZSH=$HOME/.oh-my-zsh
-export PATH=$HOME:~/.composer/vendor/bin:/usr/local/sbin:/bin:/usr/local/bin:~/.cargo/bin:$PATH
+export PATH=$HOME:~/.composer/vendor/bin:/usr/local/sbin:/bin:/usr/local/bin:~/.cargo/bin:/opt/homebrew/opt/python@3.9/libexec/bin:$PATH
 
 # Stop my screen being cluttered with udders
 export ANSIBLE_NOCOWS=1
@@ -47,6 +47,7 @@ alias github="cd ~/Code/src/github.com"
 alias tmuxcheat="open https://gist.github.com/henrik/1967800"
 alias flushdns="sudo killall -HUP mDNSResponder"
 alias listening="sudo lsof -iTCP -sTCP:LISTEN -n -P"
+alias publicip="dig +short myip.opendns.com @resolver1.opendns.com"
 
 # Treat failed globs like bash (to allow wildcards when using terraform)
 setopt nonomatch
