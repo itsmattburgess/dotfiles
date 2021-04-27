@@ -25,6 +25,7 @@ brew "zsh-syntax-highlighting"
 brew "httpie"
 brew "wrk"
 brew "aws-sam-cli"
+brew "cfn-lint"
 
 cask "spotify"
 cask "iterm2"
