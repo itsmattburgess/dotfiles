@@ -1,0 +1,10 @@
+[core]
+  excludesfile = ~/.gitignore_global
+	editor = vim
+
+[user]
+	name = Matt Burgess
+	email = matt.burgess92@googlemail.com
+
+[init]
+	defaultBranch = main
