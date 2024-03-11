@@ -1,3 +1,16 @@
+[alias]
+  # short status
+  s = status -s
+
+  # pretty log for last 20 commits
+  l = log --pretty=oneline -n 20 --graph --abbrev-commit
+
+  # commit all
+  ca = !git add -A && git commit -av
+
+  # list contributors
+  contributors = shortlog --summary --numbered
+
 [core]
   excludesfile = ~/.gitignore_global
 	editor = vim
